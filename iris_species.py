@@ -25,8 +25,9 @@ prediction_species = target_names[prediction[0]]
 st.write("## Iris Species Prediction")
 st.write(f"The predicted species is: {prediction_species}")
 if prediction_species == 'setosa':
-    st.image("/img/setosa.jpg", caption='Iris Setosa')
+    st.image("img/setosa.jpg", caption='Iris Setosa')
 elif prediction_species == 'versicolor':
     st.image("img/versicolor.jpg", caption='Iris Versicolor')
 else:
+
     st.image("img/virginica.jpg", caption='Iris Virginica')
